@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class=" vpad--xxl {{page.colour}} bv-parallax bv-drawing bv-remove-bg" style="background-image: url('{{site.img}}/icons/{{page.drawing}}.png');">
+  <div class="container">
+    <div class="width width--xl  text--left text--normal text--xxl " >
+      <div class=" text--serif-lg bv-lineheight">{{page.intro-title}}</div>
+      <div class="space--sm"></div>
+       <div class="text--serif-italic">{{page.intro}}</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% for section in site.data[page.id] %}
+    <div id="{{page.id}}" class="harvey{% cycle '', ' harvey--swap' %}">
+      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');">
+        <div class="bv-map-local" style="background-image: url('{{site.img}}/icons/map-basic.svg'); {% cycle 'float: right;', 'float: left;' %}"></div>
+      </div>
+      <div class="harvey__text boxpad--lg text text--xxl">
+        <h2 class="title title--xl bv-headline-divider ">{{section.title}}</h2>
+        <p>{{section.description}}</p>
+        <div class="space--lg"></div>
+
+      </div>
+    </div>
+ {% endfor %}
