@@ -1,16 +1,52 @@
 
-- id: one
-  title: Magische Stunden am Ayers Rock
-  cta: http://bit.ly/2DMlQSn
-  description: "Ein unvergessenes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback Himmel inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner, mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Tische senkt, erkunden Sie den Sternenhimmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Lichtinstallationen des gefeierten Künstlers Bruce Munro. "
+- id: "one"
+  title: Magische Stunden am Uluru
+  colour: black
+  credit: "© Tourism Australia"
+  location: Uluru, Northern Territory
+  description: "Ein faszinierendes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback-Himmel, inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Ebene senkt, erkunden Sie den Sternenhimmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Lichtinstallationen des gefeierten Künstlers Bruce Munro, die noch bis 2020 leuchten werden."
 
 
 ################################################################################
 
-- id: two
+- id: "two"
   title: Delikatessen aus dem Outback
-  cta: http://bit.ly/2JeVegb
-  description: "In Sydneys Hafenvierteln Darling Harbour und The Rocks schlägt das gastronomische Herz der Stadt und verspricht kulinarische Exkursionen der Extraklasse. Probieren Sie internationale Gerichte, in Kombinationen mit einheimischen Produkten, wie Kangaroofleisch, Emu oder Filets vom Wallaby. Genießen Sie ein Kingfish-Carpaccio im Flying Fish oder verköstigen exklusive Marrons (Flusskrebse) im The Press. Schmackhafte Barbecue Menüs à la Bush Tucker mit regional gebrautem Bier präsentieren Ihnen die Pubs des historischen Hafenviertels The Rock. Und zur blauen Stunde verwöhnt ein Glas Wein Ihren Gaumen, vom Dach der Rooftop-Bar des Glenmoore Hotels."
+  colour: white
+  credit: "© Tourism Australia"
+  location: Westaustralien, Tasmanien, Südaustralien
+  description: "Schauen Sie auf den zahlreichen Festivals — wie dem Margaret River Gourmet Escape in Westaustralien oder dem Taste of Tasmania — den Spitzenköchen über die Schulter. Verwöhnen Sie Ihren Gaumen mit feinsten Zutaten aus der Region wie exklusivem Wein aus Südaustralien, Whisky oder dem berühmten Leatherwood Honig aus Tasmanien. Um die ursprüngliche Küche der First Nations Australiens zu probieren, müssen Sie nicht die Wanderschuhe anziehen. Im 5*-Restaurant Orana in Adelaide präsentiert Starkoch Jock Zonfrillo die Zutaten der indigenenen Kochtradtion im gehobenem Ambiente: Meerespetersilie (Sea Parsley), Coorong Mulloway oder Strandsukkulenten sind nur einige Speisen aus der Aboriginal Kitchen, die Sie dort probieren können. "
+
+
+################################################################################
+
+- id: "three"
+  title: Sterneküche für Genießer
+  colour: black
+  credit: "© "
+  location: Südaustralien, New South Wales, Victoria
+  description: "In den größeren Städten Australiens, aber auch entlang der umliegenden Regionen und Weinanbaugebiete finden Sie sowohl preisgekrönte Restaurants als auch Feinschmecker Events, die einmalige Geschmackserlebnisse versprechen. Im McLaren Vale wartet der The Cube — ein Komplex mit Museum, Videoinstallation, Weinverkostung sowie Restaurant auf Ihren Besuch. Auf gutes Essen müssen Sie auch in den Metropolen nicht verzichten: Das Quay und Firedoor zählen in Sydney zu den Top Adressen ebenso das berühmte Attica in Melbourne. "
+
+
+################################################################################
+
+
+- id: "four"
+  title: Skyline-Fieber für&nbsp;Nachtschwärmer
+  colour: white
+  credit: "© Opera Australia"
+  location: Sydney, New South Wales
+  description: "Im Herzen von Sydney bieten Rooftop-Bars eine perfekte Möglichkeit, lauschige Sommernächte mit Blick auf die Wahrzeichen der Stadt zu verbringen. Vor spektakulärer Kulisse präsentiert das Open-Air-Kino der Bondi Beach Bar ein ausgewähltes Filmprogramm zur blauen Stunde. Aus der Vogelperspektive genießen Sie die besten Aussichten auf das 10 minütige Feuerwerksspektakel an der Harbour Bridge, das jeden Samstag Abend zelebriert wird. Doch Kunst, Kultur und Outdoor-Veranstaltungen finden nicht nur auf den Dächern der pulsierenden Metropole statt: Unvergessen bleibt ein Opernabend im berühmten Sydney Opera House, das mit Stars aus der Klassik-Welt großartige Inszenierungen darbietet. "
+
+
+################################################################################
+
+
+- id: "five"
+  title: Australiens edle Tropfen
+  location: Barossa Valley, Südaustralien
+  colour: black
+  credit: "© Tourism Australia"
+  description: "Wussten Sie, dass Australien einen ausgezeichneten Ruf als preisgekrönte Weindestination besitzt? Auf Genuss-Touren lernen Sie mehr über die Spitzenweine der 60 Anbaugebiete kennen. Zu den besten und ältesten Weinregionen Süd-Australiens zählt das Barossa Valley. Seit 160 Jahren produzieren die Winzer Spitzenweine, die ihresgleichen suchen. Preisgekrönt ist auch der Sauvignon Blanc aus der westaustralischen Weinregion Margaret River. Bei einer Stippvisite probieren Sie hier die Premium-Weine gleich vom Fass. Nahe der Metropole lädt das Hunter Valley zu Festivals mit Wein und Käse. Entlang des Wine-Trails, im beschaulichen Swan Valley, flanieren Sie zwischen Weingut-Cafés, Brauereien und Brennereien."
 
 
 ################################################################################

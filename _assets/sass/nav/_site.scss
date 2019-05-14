@@ -1,9 +1,9 @@
 // styles for the microsite nav
 
-$site-nav-height:    56px;
-$site-nav-height-sm: 44px;
+$site-nav-height:    60px;
+$site-nav-height-sm: 50px;
 $nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$nav-color:          $bv-turquoise;
 
 
 // global site nav height
@@ -18,7 +18,7 @@ $nav-color:          $orange-dark;
 
 .site-nav {
   position: relative;
-  background-color: rgba($nav-color,.8);
+  background-color: rgba($nav-color,.9);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -88,14 +88,16 @@ $nav-color:          $orange-dark;
     padding-right: $s4;
     font-family: $font-core;
     font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-size: 12px;
+    letter-spacing: .15em;
     text-transform: uppercase;
+    //padding-top: -4px;
+    border-bottom: rgba($bv-yellow, 0) 4px solid;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    &.is-current      { background-color: rgba($nav-color,.66); border-bottom: $bv-yellow 4px solid; }
+    .no-touch &:hover { background-color: rgba($nav-color,1); border-bottom: $bv-yellow 4px solid; }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

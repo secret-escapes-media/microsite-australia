@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+
+<div class=" vpad--xxl " >
+  <div class="container">
+    <div class="width width--xl text--left text--normal text--xl " >
+       <div class="text--italic">{{page.intro}}</div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row row--xl-6-6 row--no-gutters bg--light ">
+    <div class="col col--xl-4" >
+      <div class="vpad--md">
+        <div class="width width--lg bv-hpad">
+          <div class="space--lg"></div>
+          <h1 class="title title--lg ">Entdecken Sie Ihr Highlight</h1>
+          <div class="space--xl"></div>
+          <h2 class="text text--xxl">Nur einen Klick entfernt: Unsere Australien-Tipps.</h2>
+          <div class="space--xl"></div>
+          <h2 class="text text--lg bv-mob-hide--lg">Klicken Sie sich einfach durch die Pins auf unserer interaktiven Karte und erkunden die vielfältigen Aktivitäten.</h2>
+          <div class="space--xxl bv-mob-hide--lg"></div>
+          <div class="bv-highlights-wrap ">
+            <div class="space--md"></div>
+
+            {% for section in site.data.highlights %}
+              <div id="{{section.page-id}}" class="accordion bv-pin bv-{{section.page-id}} text text--md text--normal">{{section.title}}</div>
+              <div class="panel bg--light text text--light">
+
+                  {% for poi in section.pois.items %}
+                  <a href="{{poi.link}}">
+                    <div class="panel-img" style="background-image: url('{{site.img}}/content/{{section.page-id}}/bg-{{poi.img}}.jpg');"></div>
+                    <div class="space--sm"></div>
+                    <div class="text text--lg text--dark text--upper">{{poi.title}}</div>
+                    <div class="text--dark text--md">{{poi.description}} <br></div>
+                    <div class="space--xs"></div>
+                    <div class="text--bold text--red">Mehr erfahren</div>
+                  </a>
+                   <div class="space--md"></div>
+                   {% endfor %}
+
+              </div>
+          {% endfor %}
+
+            <div class="space--xl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col--xl-8">
+         <div class="bv-highlights-section">
+             <div class="map" id="map">
+               <div class="bv-legend-wrap ">
+               <a class="bv-toggle bv-toggle-active" id="bv-pin1"><div class="bv-icon bv-genuss text text--lg">Genuss</div></a>
+               <a class="bv-toggle bv-toggle-active" id="bv-pin2"><div class="bv-icon bv-natur text text--lg">Natur</div></a>
+               <a class="bv-toggle bv-toggle-active" id="bv-pin3"><div class="bv-icon bv-abenteuer text text--lg">Abenteurer</div></a>
+               <a class="bv-toggle bv-toggle-active" id="bv-pin4"><div class="bv-icon bv-kultur text text--lg">Kultur</div></a>
+             </div>
+           </div>
+        </div>
+  </div>
+</div>
+{% include page/map/map.html %}

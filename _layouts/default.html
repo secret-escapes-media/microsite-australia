@@ -15,13 +15,16 @@
       {{ content }}
     </div>
 
-    {% unless page.id == 'offers' or page.id == 'competition' %}
+    {% unless page.layout == 'content'  %}
       {% include page/promo-comp.html %}
     {% endunless %}
 
     {% include page/footer.html %}
 
     {% include modal/modal.html %}
+
+
+  <script src="{{site.js}}/main.js"></script>
 
   </body>
 

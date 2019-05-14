@@ -1,0 +1,273 @@
+
+
+<script >
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoiaGFtaXNoamdyYXkiLCJhIjoiY2pkbjBmeGN6MDd1YzMzbXI3cWdpNThjayJ9.3YE8T1H2QUyqNIkxdKWxkg';
+
+  var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/hamishjgray/cjvgni6nh0a991fnz00plzg3o',
+     // style: 'mapbox://styles/mapbox/light-v10',
+      center: [130.0989, -25.852510],
+      zoom: 4,
+      //minZoom: 5,
+
+    });
+
+  console.log(map);
+
+
+
+  map.addControl(new mapboxgl.NavigationControl());
+
+  map.on('load', function() {
+    // Insert the layer beneath any symbol layer.
+    var layers = map.getStyle().layers;
+
+    var labelLayerId;
+    for (var i = 0; i < layers.length; i++) {
+    if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+      labelLayerId = layers[i].id;
+      break;
+      }
+    }
+
+    });
+
+
+
+    // code from the next step will go here!
+    var geojson = {
+      type: 'FeatureCollection',
+      features: [
+
+
+//************** Genuss ************
+  {
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [130.034361, -25.352594]
+  },
+  properties: {
+    id: '1',
+    cat: 'genuss',
+    title: 'Magische Stunden am Ayers Rock',
+    img: 'one',
+    link: '#',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  }
+},
+{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [116.016, -31.8494]
+  },
+  properties: {
+    id: '2',
+    cat: 'genuss',
+    title: 'Delikatessen aus dem Outback',
+    img: 'two',
+    link: '#',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  }
+},
+{
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [150.2164539, -33.8548157]
+    },
+    properties: {
+      id: '3',
+      cat: 'genuss',
+      title: 'Skylinefieber für Nachtschwärmer',
+      img: 'three',
+      link: '#',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    }
+  },
+  {
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [138.9385455, -34.6134149]
+  },
+  properties: {
+    id: '4',
+    cat: 'genuss',
+    title: 'Barossa Valley',
+    img: 'four',
+    link: '#',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  }
+},
+    //************** Abenteurer ************
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [131.034361, -25.352594]
+      },
+      properties: {
+        id: '1',
+        cat: 'abenteuer',
+        title: 'Uluru',
+        img: 'one',
+        link: '#',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+      },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [146.9560, -19.1014]
+      },
+      properties: {
+        id: '2',
+        cat: 'abenteuer',
+        title: 'Great Barrier Reef',
+        img: 'two',
+        link: '#',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    //************** Kultur ************
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [151.2164539, -33.8548157]
+      },
+      properties: {
+        id: '1',
+        cat: 'kultur',
+        title: 'Sydney',
+        img: 'three',
+        link: 'http://bit.ly/2CtblT9',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [147.3279, -42.8825]
+      },
+      properties: {
+        id: '2',
+        cat: 'kultur',
+        title: 'Hobart',
+        img: 'four',
+        link: '#',
+        description: 'BLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [144.9629, -37.8142]
+      },
+      properties: {
+        id: '3',
+        cat: 'kultur',
+        title: 'Melbourne',
+        img: 'five',
+        link: '#',
+        description: 'BLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    //************** Natur ************
+
+    {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [113.7690568, -23.1435944]
+    },
+    properties: {
+      id: '1',
+      cat: 'natur',
+      title: 'Ningaloo Reef',
+      img: 'one',
+      link: 'http://bit.ly/2Yey4Me',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [146.5000, -19.1014]
+      },
+      properties: {
+        id: '2',
+        cat: 'natur',
+        title: 'Great Barrier Reef',
+        img: 'two',
+        link: '#',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [145.428, -16.2379]
+      },
+      properties: {
+        id: '3',
+        cat: 'natur',
+        title: 'Daintree Rainforest',
+        img: 'three',
+        link: '#',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [153.3820, -27.7702]
+      },
+      properties: {
+        id: '4',
+        cat: 'natur',
+        title: 'Kangaroo Island',
+        img: 'five',
+        link: '#',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      }
+    }
+      ]
+    };
+
+    	// add markers to map
+    geojson.features.forEach(function(marker) {
+
+      // create a HTML element for each feature
+      var el = document.createElement('a');
+      //el.innerHTML = 'onlick';
+
+      //document.body.appendChild(el);
+      el.className = 'bv-show marker marker--'+marker.properties.cat;
+      el.id = marker.properties.cat+marker.properties.id;
+
+
+    	//alert(marker.properties.id);
+
+      // make a marker for each feature and add to the map
+    new mapboxgl.Marker(el)
+      .setLngLat(marker.geometry.coordinates)
+      .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+      .setHTML('<a class="text--black" target="_blank" href="'+ marker.properties.link +'"><div class="bv-popup-img bg-img--16-9" style="background-image: url({{site.img}}/content/'+marker.properties.cat+'/'+marker.properties.img+'.jpg); "></div><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></a>'))
+
+      //.setHTML('<a href="'+marker.properties.link+'"><div class="bv-popup-wrap "><img src="{{site.img}}/content/'+marker.properties.id+'/bg-'+marker.properties.img+'.jpg"><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></div></a>'))
+      .addTo(map);
+    });
+
+
+</script>

@@ -1,16 +1,52 @@
 
-- id: one
-  title: Magische Stunden am Ayers Rock
-  cta: http://bit.ly/2DMlQSn
-  description: "Ein unvergessenes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback Himmel inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner, mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Tische senkt, erkunden Sie den Sternenhimmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Lichtinstallationen des gefeierten Künstlers Bruce Munro. "
+- id: "one"
+  title: Traditionelle Aborigine Kunst
+  colour: black
+  credit: "© "
+  location: Uluru, Northern Territory
+  description: "Zu den ältesten Kunsttraditionen der Welt zählt die Felsen- und Höhlenmalerei der Aborigines. Die schätzungsweise fast 40.000 Jahre alten symbolischen Kunstwerke schmücken über 100.000 Höhlen- und Felswände auf dem 5. Kontinent. Die grafischen Motive im Dot-Painting-Stil sind nicht nur reine Kunst, sondern wurden wie eine Schrift verwendet. Symmetrische Formen und Figuren weisen ähnlich wie ein Zeichen etwa auf essbare Pflanzen und sauberes Wasser hin oder warnen vor Gefahr. Die unterschiedlichen Kunststile konnten den Sprachen der Stämme nach Region zugewiesen werden. Im Uluru-Kata Tju Nationalpark sind die Kunstwerke des Anangu-Stammes in den Höhlen am Fuße des Ayers Rock zu bewundern."
 
 
 ################################################################################
 
-- id: two
-  title: Delikatessen aus dem Outback
-  cta: http://bit.ly/2JeVegb
-  description: "In Sydneys Hafenvierteln Darling Harbour und The Rocks schlägt das gastronomische Herz der Stadt und verspricht kulinarische Exkursionen der Extraklasse. Probieren Sie internationale Gerichte, in Kombinationen mit einheimischen Produkten, wie Kangaroofleisch, Emu oder Filets vom Wallaby. Genießen Sie ein Kingfish-Carpaccio im Flying Fish oder verköstigen exklusive Marrons (Flusskrebse) im The Press. Schmackhafte Barbecue Menüs à la Bush Tucker mit regional gebrautem Bier präsentieren Ihnen die Pubs des historischen Hafenviertels The Rock. Und zur blauen Stunde verwöhnt ein Glas Wein Ihren Gaumen, vom Dach der Rooftop-Bar des Glenmoore Hotels."
+- id: "two"
+  title: Authentische Erlebnisse
+  colour: white
+  credit: "© "
+  location: Northern Territory, Westaustralien
+  description: "Tauchen Sie ein in die faszinierende Kultur der Aborigines. In Begleitung eines Guides entdecken Sie die Traditionen einer Nation, die zu den ältesten der Welt gehört. Deuten Sie Tierspuren im Sand, fangen Fische mit dem Speer oder sammeln Mangrovenkrabben ein. Der Stammesälteste führt Sie zu den magischen Orten der Bush Tucker und lädt zur Welcome-to-Country-Zeremonie ein. In verschiedenen Regionen können Sie authentische Touren mit den Ureinwohnern des Kontinents erleben. In Führungen durch die Nationalparks vermitteln Stammesmitglieder ihr Wissen und ihre Werte über das Zusammenspiel mit der Natur."
+
+
+################################################################################
+
+- id: "three"
+  title: Facettenreiches Licht-Spektakel
+  colour: black
+  credit: "© "
+  location: Sydney, New South Wales
+  description: "Jährlich zwischen Mai und Juni verwandelt das Vivid Sydney Festival berühmte Bauwerke und Skulpturen in eine märchenhafte Kulisse. Kunterbunt erstrahlen die Wahrzeichen der Metropole, wie das berühmte Opera House of Sydney, die Harbour Bridge oder das Museum of Contemporary Art. Musikalisch untermalt wird das visuelle Kunsterlebnis mit Auftritten lokaler und internationaler Stars aus der Musik-Szene. Öffentliche Gesprächsrunden, Kunstkonferenzen, Ausstellungen und Workshops laden zum Austausch zwischen Kunstschaffenden, Politikern und globalen Denkern ein."
+
+
+################################################################################
+
+
+- id: "four"
+  title: Geheimnisvolle Orte
+  colour: white
+  credit: "© "
+  location: Hobart, Tasmanien
+  description: "Das tief ins Erdreich gebaute Museum of Old and New Art ist Australiens größtes Museum in Privatbesitz. Mit seinen eindrucksvollen Sammlungen hat sich das in einer Sandsteinklippe eingebaute Kunstmuseum MONA einen Namen gemacht. Nicht nur die Lage, das Bauwerk, sondern auch die Gestaltung der gastronomischen Einrichtungen wie das Café, Restaurant und der Weinkeller im Arsenal sind wahre Schmuckstücke. Unterirdisch gelegen sind auch die spanennden Ghost-Touren im ehemaligen Gefängnis Porth Arthur auf Tasmanien. Im Schein des Laternenlichtes lauschen Sie Erzählungen über unerklärliche Ereignisse und paranomorale Aktivitäten."
+
+
+################################################################################
+
+
+- id: "five"
+  title: Kunstgenuss in Melbourne
+  location: Melbourne, Victoria
+  colour: black
+  credit: "© "
+  description: "Folgen Sie einfach dem wunderbaren Duft des Kaffee-Aromas: Am südlichen Ufer des Yarra liegt der Kunstbezirk zwischen trendigen Coffeeshops und Boutiquen. Schon auf dem Weg genießen Sie Kunst im Großformat: Graffitikünstler wie Barnsky bemalten hier die Fassaden der schmalen Gassen. Unweit liegt die älteste und namensgleiche Gallery of Victoria, deren Ausstellung Exponate der Aborigine Kunst und heimischer Künstler zeigt. Provokante moderne Werke entdecken Sie im Heide Museum of Modern Art in Bulleen. Nicht nur Jazz, auch Interpreten aus der R&B, Pop und Rock Szene sind geschätzte Gäste des Birds Basement Club. Stars aus Theater, Musical und Comedy erleben Sie abends live im Arts Centre Melbourne."
 
 
 ################################################################################

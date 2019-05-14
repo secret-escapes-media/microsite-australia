@@ -1,16 +1,50 @@
 
 - id: one
-  title: Magische Stunden am Ayers Rock
-  cta: http://bit.ly/2DMlQSn
-  description: "Ein unvergessenes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback Himmel inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner, mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Tische senkt, erkunden Sie den Sternenhimmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Lichtinstallationen des gefeierten Künstlers Bruce Munro. "
+  title: Red Centre aus der Vogelperspektive
+  colour: black
+  credit: "© Tourism Australia"
+  location: Rotes Zentrum, Northern Territory
+  description: "Erleben Sie das ursprüngliche Australien im Northern Territory. Nationalparks und außergewöhnliche Felsformationen bilden mit dem berühmten Monolithen Uluru das Zentrum des Outbacks. Oxidiertes Eisen verleiht der charakteristischen roten Halbwüste seine unverwechselbare Farbe. Das Red Centre lässt sich auf viele Arten erkunden: Mit dem Auto, per Boot oder zu Fuß. Wanderungen durch das Red Centre führen vorbei an tiefen Schluchten des King Canyons mit seinen Wasserfällen und Seen. Auf Helikopterflügen und Heißluftballon-Fahrten von Alice Springs aus gleiten Sie dem Sonnenuntergang entgegen und lassen sich von den dramatischen Felsdomen des Kata Tjuta Naturparks beeindrucken."
 
 
 ################################################################################
 
 - id: two
-  title: Delikatessen aus dem Outback
-  cta: http://bit.ly/2JeVegb
-  description: "In Sydneys Hafenvierteln Darling Harbour und The Rocks schlägt das gastronomische Herz der Stadt und verspricht kulinarische Exkursionen der Extraklasse. Probieren Sie internationale Gerichte, in Kombinationen mit einheimischen Produkten, wie Kangaroofleisch, Emu oder Filets vom Wallaby. Genießen Sie ein Kingfish-Carpaccio im Flying Fish oder verköstigen exklusive Marrons (Flusskrebse) im The Press. Schmackhafte Barbecue Menüs à la Bush Tucker mit regional gebrautem Bier präsentieren Ihnen die Pubs des historischen Hafenviertels The Rock. Und zur blauen Stunde verwöhnt ein Glas Wein Ihren Gaumen, vom Dach der Rooftop-Bar des Glenmoore Hotels."
+  title: Entlang der Südwest-Küste
+  colour: white
+  credit: "© Sean Scott Photography"
+  location: Südliches Westaustralien
+  description: "Der perfekte Ausgangspunkt für einen Roadtrip durch den Südwesten ist die kleine Metropole Perth: Von den natürlichen Spa-Pools am Strand des Leeuwin-Naturaliste National Parks bietet sich Ihnen ein fantastischer Blick auf die üppigen grünen Weinhügel des Margaret River. Nach einem Spaziergang durch alte Eukalyptuswälder lassen die bizarren Kristalle der Kalksteinhöhle Lake Cave ihr Antlitz erstrahlen. Treffen Sie auf Ihrer Reise Delfine und Wale und nehmen Sie ein Sonnenbad zwischen niedlichen Kängurus am weißen Sandstrand der Lucky Bay. "
+
+
+################################################################################
+
+- id: three
+  title: Abenteuer in Südaustralien
+  colour: black
+  credit: "© Goin’ Off Safaris / Robert Lang"
+  location: Eyre Halbinsel, Südaustralien
+  description: "Nach dem Entdecker Edward John Eyre wurde die kleine dreieckige Halbinsel in Südaustralien benannt. Kilometerlange Sandstrände, Kalksteinklippen und karge Präriewiesen prägen das Bild der Landschaft. Lassen Sie sich nicht die Chance entgehen in freier Natur mit Seelöwen oder Delfinen zu schwimmen. Von den Klippen haben Sie den perfekten Blick auf den Ozean und schauen Buckelwalen bei ihrem Flossen-Tanz zu. Mutige fahren auf einer Exkursion zu den Gewässern vor Port Lincoln und begeben sich im geschützten Käfig zu den Weißen Haien ins Wasser. "
+
+
+################################################################################
+
+- id: four
+  title: Wandern am schönsten Strand der Welt
+  colour: white
+  credit: "© Friendly Beaches Lodge / Great Walks of Australia"
+  location: Freycinet Nationalpark, Tasmanien
+  description: "Entlang der Ostküste Tasmaniens warten wunderschöne Sandstrände und Buchten, wie die türkisblaue Wineglass Bay im Freycinet National Park auf Sie. Der feine weiße Strand in Form eines Halbmondes lädt zum Spazieren ein. Etwas länger wandern Sie auf dem preisgekrönten Freycinet Experience Walk bei einer geführten Tour. Auf der Wanderroute geht es vorbei an einsamen Buchten und Stränden mit klarem Wasser, die zum Schwimmen, Kajakfahren oder zum Relaxen animieren. Mit einem Rundflug vom Friendly Beaches Airfield aus bewundern Sie die majestätische Landschaft des Freycinet National Parks aus der Luft. "
+
+
+################################################################################
+
+- id: five
+  title: Wahre Inselträume
+  colour: black
+  credit: "© Tourism Whitsundays"
+  location: Whitsunday Islands, Queensland
+  description: "Wie eine Schlange windet sich der Whitehaven Beach zwischen kräftig grünen Pinienwäldern. Der feine und funkelnde Quartzsand ist die beliebteste Attraktion der Whitsunday Islands in Queensland. Wahre Inselträume werden hier Wirklichkeit ... an den langen weißen Stränden, umgeben von türkisfarbenem Wasser und kunterbunten Korallenriffen. Ausflüge zu den unbewohnten Inseln werden mit dem Wasserflugzeug, mit Hubschraubern oder Katamaranen unternommen, denn das Insel-Paradies ist nur aus der Luft oder übers Wasser zu erreichen. Hamilton Island bietet neben karibischem Inselflair beliebte Attraktionen wie Kanu- und Kajak-Touren, Wanderungen oder ein Frühstück mit Koalas an. "
 
 
 ################################################################################

@@ -1,0 +1,187 @@
+
+/* ==========================================================================
+Map
+========================================================================== */
+
+
+#map {
+
+
+  display: none;
+
+  @include bp($lg){
+    //background-color: $bv-red;
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;}
+
+}
+
+.bv-highlights-wrap{
+
+    display: block;
+
+  @include bp($lg) {  display: none;  }
+}
+
+
+.map {
+
+  min-height: 500px;
+
+  @include bp($xl){
+
+    position: relative;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 650px;
+   }
+}
+
+
+
+.marker {
+
+    cursor: pointer;
+    content: "";
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: contain;
+
+    &--kultur  {  background-image: url( "../img/icons/map-kultur.svg" ); z-index: 5;}
+    &--kultur-hover  { z-index: 10;}
+    &--abenteuer  {  background-image: url( "../img/icons/map-abenteuer.svg" );  z-index: 6;}
+    &--abenteuer:hover  { z-index: 10;}
+    &--genuss  {  background-image: url( "../img/icons/map-genuss.svg" );  z-index: 7;}
+    &--natur  {  background-image: url( "../img/icons/map-natur.svg" ); z-index: 8; }
+}
+
+
+.bv-toggle{
+  cursor: pointer;
+  width: 90px;
+  text-align: center;
+  margin: 0 3px;
+  padding: 8px 5px 8px;
+  background-color: rgba($white, .5);
+  //border-radius: 6px;
+  border-bottom: 4px solid rgba($white, .5);
+ }
+.bv-toggle:hover{background-color: rgba($white, .9); border-bottom: 4px solid rgba($bv-blue, .5)}
+
+
+.bv-toggle-active{
+  cursor: pointer;
+  width: 90px;
+  text-align: center;
+  margin: 0 3px;
+  padding: 8px 5px 8px;
+  background-color: rgba($white, .9);
+  //border-radius: 6px;
+  border-bottom: 4px solid rgba($bv-blue, .5);
+}
+
+
+.bv-icon::before {
+
+    content: "";
+    display: block;
+    transform: scale(0.7);
+
+    @include bp($lg){
+
+      content: "";
+      display: block;
+      transform: scale(0.7);
+      //text-align: center;
+      //margin-right: 20px;
+      margin-top: -8px;
+      margin-bottom: -10px;
+      //vertical-align: left;
+      //background-size: contain;
+
+     }
+
+}
+
+.bv-kultur::before {
+  content: url( "../img/icons/map-kultur.svg" );
+}
+
+.bv-natur::before {
+  content: url( "../img/icons/map-natur.svg" );
+}
+
+.bv-abenteuer::before {
+  content: url( "../img/icons/map-abenteuer.svg" );
+}
+
+.bv-genuss::before {
+  content: url( "../img/icons/map-genuss.svg" );
+}
+
+
+.bv-legend-wrap{
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 10px;
+  //width: 200px;
+  z-index: 18;
+  //background-color: rgba($white, .5);
+  //box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2)!important;
+}
+
+
+.bv-popup-img{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin: 0px!important;
+
+    vertical-align: middle;
+    background-size: cover;
+    background-color: $grey;
+  }
+
+.mapboxgl-popup {
+    max-width: 320px;
+    z-index: 19;
+}
+
+
+
+.bv-popup-wrap{
+  padding:0;
+}
+
+.mapboxgl-popup-close-button{
+  background-color: $white;
+  border-radius: 50px!important;
+  margin: 4px;
+  font-size: 14px;
+  padding: 2px 7px 4px;
+
+}
+.mapboxgl-popup-close-button:hover {
+
+    background-color:  $black;
+    color: $white;
+
+}
+
+.mapboxgl-popup-content {
+  padding:0px!important;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4)!important;
+}

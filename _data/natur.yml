@@ -1,16 +1,50 @@
 
-- id: one
-  title: Magische Stunden am Ayers Rock
-  cta: http://bit.ly/2DMlQSn
-  description: "Ein unvergessenes Erlebnis ist das Candle-Light-Dinner im Uluru-Kata-Tjuta-Nationalpark. Unter funkelndem Outback Himmel inmitten des trockenen Red Centre, laden die Gastgeber des Sound of Silence und des Field of Light Event zum Dinner, mit Blick auf den Uluru, wie der Ayers Rock in der Sprache der Aborigines genannt wird. Magisch ist der Moment, wenn die Sonne untergeht und das Zirpen und Trällern im Busch verstummt. Während sich die Stille der Nacht über die Tische senkt, erkunden Sie den Sternenhimmel der Südhalbkugel und suchen das Southern Cross — ein Wahrzeichen Down Unders. Anschließend flanieren Sie durch die Lichtinstallationen des gefeierten Künstlers Bruce Munro. "
+- id: "one"
+  title: Ein Naturerlebnis das alles&nbsp;bietet
+  colour: black
+  credit: "© Thala Beach Nature Reserve"
+  location: Ningaloo Reef, Westaustralien
+  description: "Das Ningaloo Reef ist das größte Saumriff der Welt und zählt zum UNESCO Weltnaturerbe. Nur wenige Meter vom Strand aus bietet sich Ihnen eine schillernde Unterwasserwelt, die zum Schnorcheln und Tauchen animiert. Mit etwas Glück schwimmen Sie neben dem imposanten Walhai: eine großartige und unvergessene Begegnung. Etwas weiter draußen beobachten Sie seltene Buckelwale, Delfine oder wunderschöne Mantarochen. Wenn Sie ein ganz besonderes Andenken suchen, dann probieren Sie die komfortablen Glamping-Unterkünfte des Sal Salis im Cape Range Nationalpark: Sonnenuntergänge mit maritimen Weitblick und funkelnder Sternenhimmel über der Dünenlandschaft bleiben auch in der Erinnerung lebendig. "
 
 
 ################################################################################
 
-- id: two
-  title: Delikatessen aus dem Outback
-  cta: http://bit.ly/2JeVegb
-  description: "In Sydneys Hafenvierteln Darling Harbour und The Rocks schlägt das gastronomische Herz der Stadt und verspricht kulinarische Exkursionen der Extraklasse. Probieren Sie internationale Gerichte, in Kombinationen mit einheimischen Produkten, wie Kangaroofleisch, Emu oder Filets vom Wallaby. Genießen Sie ein Kingfish-Carpaccio im Flying Fish oder verköstigen exklusive Marrons (Flusskrebse) im The Press. Schmackhafte Barbecue Menüs à la Bush Tucker mit regional gebrautem Bier präsentieren Ihnen die Pubs des historischen Hafenviertels The Rock. Und zur blauen Stunde verwöhnt ein Glas Wein Ihren Gaumen, vom Dach der Rooftop-Bar des Glenmoore Hotels."
+- id: "two"
+  title: Schillernde Unterwasserwelt
+  colour: white
+  credit: "© Tourism Port Douglas and Daintree"
+  location: Great Barrier Reef, Queensland
+  description: "Wussten Sie, dass man das Great Barrier Reef vom Weltall aus sehen kann? Ganz so weit müssen Sie nicht reisen, denn Bootstouren mit Tauch- und Schnorchel-Exkursionen bringen Sie diesem Weltwunder ganz nahe. Wer nicht mit den schillernden Bewohnern des Riffes baden möchte, kann von einem Glasboden-Boot das faszinierende Unterwasserleben verfolgen. Mit der Cruise Whitsundays fahren Sie zur Plattform Reefworld und starten von hier aus Ihre Wasseraktivitäten ins Riff oder genießen Snacks und Getränke an Bord. Auf der Reefsleep Experience übernachten Sie in kuscheligen Swags und haben als Reefsleeper das Riff auch nachts für sich alleine. Die passende Gelegenheit für einen abenteuerlichen Tauchgang."
+
+
+################################################################################
+
+- id: "three"
+  title: Unentdeckte Naturwunder
+  colour: black
+  credit: "© Tourism Australia / Time Out Australia"
+  location: Südaustralien, Tasmanien, Victoria
+  description: "Abseits der Touristenpfade entdecken Sie verborgene Schätze wie den Grampians National Park. Der größte Nationalpark Victorias ist berühmt für seine Rotweine und Wanderwege. In den Flinder Ranges in Südaustralien bieten die zerklüfteten roten Schluchten ein perfektes Fotomotiv für das Tagebuch. Die Nachbarinsel Tasmanien zählt zur wichtigsten Wildnis-Region der Südhalbkugel und besitzt einen der zehn schönsten Sandstrände der Welt. Im Cradle Mountain-Lake-St.-Clair-Nationalpark übernachten Sie luxuriös mit Spa und Wellness umgeben von Tasmaniens wilder Natur. Über den D’Entrecasteaux-Kanal gelangen Sie zur süd-östlichsten Insel Tasmaniens: Bruny Island, benannt nach seinem Entdecker Joseph Bruny d’Entrecasteaux."
+
+
+################################################################################
+
+- id: "four"
+  title: Tropenzauber im Daintree Rainforest
+  colour: white
+  credit: "© Tourism Australia"
+  location: Daintree Rainforest, Queensland
+  description: "Entlang der Küste des Great Barrier Reefs liegt der Regenwald Daintree Rainforest. Wandern Sie durch das UNESCO Weltnaturerbe auf einer authentischen, preisgekrönten, geführten Tour und erhalten Sie historische sowie kulturelle Einblicke des Kuku-Yalanji-Volkes, während Sie die einzigartige Tier- und Pflanzenwelt bestaunen. Wie ein König der Lüfte übernachten Sie in der Silky Oaks Lodge mit atemberaubender Aussicht auf den Mossmann River. Die Öko-Lodge bietet neben Helikopter-Touren und Heißluftballon-Flügen verwöhnende Wellness-Kuren im Spa mit fein abgestimmten Pflegeprodukten und einer Kombination aus lokalen Essenzen."
+
+
+################################################################################
+
+- id: "five"
+  title: Wildnis von Südaustralien
+  colour: black
+  credit: "© Julie Fletcher"
+  location: Kangaroo Island, Südaustralien
+  description: "Spektakuläre Felsblöcke, die wie futuristische Skulpturen einer Kunstausstellung in der Landschaft platziert wurden, sind Wahrzeichen des Flinders Chase National Parks. In den Naturparks der großen Südinsel begegnen Sie auf Wanderungen putzigen Wombats, wilden Kängurus und schläfrigen Koalas. In der Hanson Bay können nachtaktive Exoten, wie das Opossum oder Fledermäuse, auf der Wildlife Sanctuary Tour gesichtet werden. Direkt auf der Meeresklippe thronen die luxuriösen Southern Ocean Lodge und die Kangaroo Beach Lodge. Nach einer Übernachtung genießen Sie, von den ausgedehnten Terrassen der Hotels, einen atemberaubenden Weitblick über das Meer und betrachten die Luftakrobatik der wilden Delfine. "
 
 
 ################################################################################

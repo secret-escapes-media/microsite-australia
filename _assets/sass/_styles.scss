@@ -2,18 +2,79 @@
 
 
 /* ==========================================================================
-   Map-Icon
+   Text-Styles
    ========================================================================== */
 
-.bv-map-local{
-  display: block;
-  margin:45px;
-  //transform: scale(.5);
-  height: 150px;
-  width: 150px;
+.bv-copyright{
+   position:absolute;
+   bottom:0px;
+   background-color: rgba($black, .2);
+   padding: 5px 10px;
+   //text-shadow: (0 0 2px $black);
+ }
+
+
+.bv-text-shadow-white{
+  text-shadow: 0 0 20px rgba($white, 1);
+}
+
+.bv-hpad {
+  padding-left: $s2;
+  padding-right: $s2;
+
+@include bp($md) {
+  padding-left: $s4;
+  padding-right: $s4;
+}
+
+@include bp($lg) {
+  padding-left: $s3;
+  padding-right: $s3;
+}
+
+@include bp($xl) {
+padding-left: $s4;
+padding-right: $s4;
+}
+
+@include bp($xxl) {
+  padding-left: $s5;
+  padding-right: $s5;
+}
+
+@include bp($xxxl) {
+  padding-left: $s7;
+  padding-right: $s7;
+}
 }
 
 
+/* ==========================================================================
+   Pin
+   ========================================================================== */
+
+.bv-pin{
+
+  content: "";
+  display: block;
+  margin-left: 1.7em;
+  font-weight: 600;
+  transform: scale(1.1);
+
+}
+.bv-pin--white::before {
+  margin-right: .3em;
+  content: url( "../img/icons/map-pin-white.svg" );
+}
+
+.bv-pin--black::before {
+  margin-right: .3em;
+  content: url( "../img/icons/map-pin-black.svg" );
+}
+
+.bv-show{
+  display: block;
+}
 
 /* ==========================================================================
    Parallax
@@ -24,8 +85,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 

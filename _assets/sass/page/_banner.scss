@@ -10,9 +10,9 @@
   min-height: 450px;
   max-height: 700px;
   color: $white;
-  background-color: $grey;
+  background-color: $black;
   @include bp($lg){
-    height: 90%;
+    height: 95%;
     min-height: 650px;
     max-height: none;
   }
@@ -34,7 +34,7 @@
     right: 0;
     bottom: 0;
     z-index: $z-content;
-    background-color: $grey-dark;
+    background-color: $black;
     @include background-attributes;
     // &:before {
     //   // optional colour overlay on bg image
