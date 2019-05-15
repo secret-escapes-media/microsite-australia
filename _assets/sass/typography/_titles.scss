@@ -89,6 +89,8 @@
     }
 
   @include bp($xl){ font-size: $s14;
-    &--md     { font-size: $s12; } }
+    &--md     { font-size: $s12; }
+      &--xxl     { font-size: $s15; }
+   }
 
 }

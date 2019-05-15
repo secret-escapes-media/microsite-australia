@@ -8,9 +8,10 @@
       container: 'map',
       style: 'mapbox://styles/hamishjgray/cjvgni6nh0a991fnz00plzg3o',
      // style: 'mapbox://styles/mapbox/light-v10',
-      center: [130.0989, -25.852510],
+      center: [132.0989, -28.852510],
       zoom: 4,
-      //minZoom: 5,
+      minZoom: 2,
+      maxZoom: 6
 
     });
 
@@ -43,11 +44,13 @@
 
 
 //************** Genuss ************
-  {
+
+
+{
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [130.034361, -25.352594]
+    coordinates: [131.033, -25.3449]
   },
   properties: {
     id: '1',
@@ -55,14 +58,14 @@
     title: 'Magische Stunden am Ayers Rock',
     img: 'one',
     link: '#',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    description: 'Magische Momente am Uluru: Event-Dinner unterm Sternenhimmel.'
   }
 },
 {
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [116.016, -31.8494]
+    coordinates: [138.600, -34.500]
   },
   properties: {
     id: '2',
@@ -70,7 +73,7 @@
     title: 'Delikatessen aus dem Outback',
     img: 'two',
     link: '#',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    description: '5*-Aborigine-Küche: Probieren Sie Filets vom Wallabi oder Meerespetersilie im Orana.'
   }
 },
 {
@@ -83,55 +86,194 @@
       id: '3',
       cat: 'genuss',
       title: 'Skylinefieber für Nachtschwärmer',
-      img: 'three',
+      img: 'four',
       link: '#',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'Sydneys Rooftopbars: Lauschige Sommernächte mit Blick auf die Wahrzeichen der Stadt.'
     }
   },
-  {
-  type: 'Feature',
-  geometry: {
-    type: 'Point',
-    coordinates: [138.9385455, -34.6134149]
+{
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [115.077, -33.9532]
+    },
+    properties: {
+      id: '4',
+      cat: 'genuss',
+      title: 'Margaret River',
+      img: 'five',
+      link: '#',
+      description: 'Weine aus Margaret River: Bei einer Stippvisite probieren Sie hier die Premium-Weine gleich vom Fass.'
+    }
   },
-  properties: {
-    id: '4',
-    cat: 'genuss',
-    title: 'Barossa Valley',
-    img: 'four',
-    link: '#',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  }
-},
-    //************** Abenteurer ************
   {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [131.034361, -25.352594]
+        coordinates: [138.5416998, -35.2172617]
       },
       properties: {
-        id: '1',
-        cat: 'abenteuer',
-        title: 'Uluru',
-        img: 'one',
+        id: '5',
+        cat: 'genuss',
+        title: 'The Cube',
+        img: 'three',
         link: '#',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Kunst und Kultur an einem Ort: The Cube verwöhnt den Gaumen und das Auge.'
       }
-      },
+    },
+
+    //************** Natur ************
+
+  {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [137.24, -35.8278]
+    },
+    properties: {
+      id: '1',
+      cat: 'natur',
+      title: 'Känguru-Insel in Südaustralien',
+      img: 'five',
+      link: '#',
+      description: 'Spektakuläre Felsen, wilde Kängurus und Seelöwen erwarten Sie auf Kangaroo Island. '
+    }
+  },
+    {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [113.7690568, -23.1435944]
+    },
+    properties: {
+      id: '2',
+      cat: 'natur',
+      title: 'Ein Naturerlebnis, das alles bietet',
+      img: 'one',
+      link: '#',
+      description: 'Gehen Sie auf Tuchfühlung mit dem imposanten und doch sanften Walhai.'
+      }
+    },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [146.9560, -19.1014]
+        coordinates: [145.428, -16.2379]
+      },
+      properties: {
+        id: '3',
+        cat: 'natur',
+        title: 'Tropenzauber im Daintree Rainforest',
+        img: 'four',
+        link: '#',
+        description: 'Erhalten Sie Einblicke in das Leben des Kuku-Yalanji-Volkes, den Einwohnern des tropischen Regenwaldes.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [145.3279, -42.5000]
+      },
+      properties: {
+        id: '4',
+        cat: 'natur',
+        title: 'Unentdeckte Naturwunder',
+        img: 'three',
+        link: '#',
+        description: 'Die Insel Tasmanien zählt zur wichtigsten Wildnis-Region der Südhalbkugel.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [146.5000, -19.1014]
+      },
+      properties: {
+        id: '5',
+        cat: 'natur',
+        title: 'Great Barrier Reef',
+        img: 'two',
+        link: '#',
+        description: 'Entdecken Sie vom Glasboden-Boot aus die schillernde Unterwasserwelt des Riffes.'
+      }
+    },
+    //************** Abenteurer ************
+
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [148.9819, -20.2605]
+      },
+      properties: {
+        id: '1',
+        cat: 'abenteuer',
+        title: 'Inselträume auf den Whitsundays',
+        img: 'five',
+        link: '#',
+        description: 'Der feine funkelnde kilometerlange Quartzstrand ist die beliebteste Attraktion der Whitsunday Islands.'
+      }
+    },
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [148.299813, -42.1714184]
       },
       properties: {
         id: '2',
         cat: 'abenteuer',
-        title: 'Great Barrier Reef',
+        title: 'Wineglass Bay',
+        img: 'four',
+        link: '#',
+        description: 'Entlang der Ostküste Tasmaniens warten wunderschöne Sandstrände und Buchten.'
+      }
+    },
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [115.8601, -31.9527]
+      },
+      properties: {
+        id: '3',
+        cat: 'abenteuer',
+        title: 'Weine, Wälder, Kängrurus',
         img: 'two',
         link: '#',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Treffen Sie auf Ihrer Reise Delfine und Wale und nehmen Sie ein Sonnenbad zwischen niedlichen Kängurus.'
+      }
+    },
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [133.8250, -32.3663]
+      },
+      properties: {
+        id: '4',
+        cat: 'abenteuer',
+        title: 'Abenteuer in Südaustralien',
+        img: 'three',
+        link: '#',
+        description: 'Lassen Sie sich nicht die Chance entgehen in freier Natur mit Seelöwen zu schwimmen.'
+      }
+    },
+  {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [133.8669, -23.7282]
+      },
+      properties: {
+        id: '5',
+        cat: 'abenteuer',
+        title: '5 Rotes Zentrum',
+        img: 'one',
+        link: '#',
+        description: 'Das Red Centre erkunden Sie mit dem Auto oder auf einem Helikopterflug.'
       }
     },
     //************** Kultur ************
@@ -144,25 +286,10 @@
       properties: {
         id: '1',
         cat: 'kultur',
-        title: 'Sydney',
+        title: 'Facettenreiches Licht-Spektakel',
         img: 'three',
-        link: 'http://bit.ly/2CtblT9',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      }
-    },
-    {
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [147.3279, -42.8825]
-      },
-      properties: {
-        id: '2',
-        cat: 'kultur',
-        title: 'Hobart',
-        img: 'four',
         link: '#',
-        description: 'BLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Das Licht-Spektakel verwandelt die Metropole in eine bunte Märchenwelt.'
       }
     },
     {
@@ -172,78 +299,50 @@
         coordinates: [144.9629, -37.8142]
       },
       properties: {
-        id: '3',
+        id: '2',
         cat: 'kultur',
         title: 'Melbourne',
         img: 'five',
         link: '#',
-        description: 'BLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      }
-    },
-    //************** Natur ************
-
-    {
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [113.7690568, -23.1435944]
-    },
-    properties: {
-      id: '1',
-      cat: 'natur',
-      title: 'Ningaloo Reef',
-      img: 'one',
-      link: 'http://bit.ly/2Yey4Me',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Grafitti-Kunst, Jazzclubs mit Weltruf und erstklassige Kunstausstellungen erwarten Sie in Melbourne.'
       }
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [146.5000, -19.1014]
-      },
-      properties: {
-        id: '2',
-        cat: 'natur',
-        title: 'Great Barrier Reef',
-        img: 'two',
-        link: '#',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      }
-    },
-    {
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [145.428, -16.2379]
+        coordinates: [129.034361, -22.352594]
       },
       properties: {
         id: '3',
-        cat: 'natur',
-        title: 'Daintree Rainforest',
-        img: 'three',
+        cat: 'kultur',
+        title: 'Traditionelle Aborigine Kunst',
+        img: 'two',
         link: '#',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Jahrtausendealte Kunst: Die Symbole und Bilder der Aborigine sind einzigartig.'
       }
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [153.3820, -27.7702]
+        coordinates: [147.3279, -42.8825]
       },
       properties: {
         id: '4',
-        cat: 'natur',
-        title: 'Kangaroo Island',
-        img: 'five',
+        cat: 'kultur',
+        title: 'Geheimnisvolle Orte',
+        img: 'four',
         link: '#',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description: 'Kunstgenuss unter der Oberfläche: Tasmaniens geheimnisvolle Orte.'
       }
     }
+
       ]
     };
+
+
+
 
     	// add markers to map
     geojson.features.forEach(function(marker) {
@@ -263,11 +362,13 @@
     new mapboxgl.Marker(el)
       .setLngLat(marker.geometry.coordinates)
       .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-      .setHTML('<a class="text--black" target="_blank" href="'+ marker.properties.link +'"><div class="bv-popup-img bg-img--16-9" style="background-image: url({{site.img}}/content/'+marker.properties.cat+'/'+marker.properties.img+'.jpg); "></div><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></a>'))
+      .setHTML('<a class="text--black" href="{{site.baseurl}}/'+ marker.properties.cat+'/#'+marker.properties.img +'"><div class="bv-popup-img bg-img--4-3" style="background-image: url({{site.img}}/content/'+marker.properties.cat+'/'+marker.properties.img+'.jpg); "></div><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div></div></a>'))
 
-      //.setHTML('<a href="'+marker.properties.link+'"><div class="bv-popup-wrap "><img src="{{site.img}}/content/'+marker.properties.id+'/bg-'+marker.properties.img+'.jpg"><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></div></a>'))
+      /**/
       .addTo(map);
-    });
 
+
+
+    });
 
 </script>

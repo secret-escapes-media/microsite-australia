@@ -24,7 +24,7 @@
   colour: black
   credit: "© "
   location: Südaustralien, New South Wales, Victoria
-  description: "In den größeren Städten Australiens, aber auch entlang der umliegenden Regionen und Weinanbaugebiete finden Sie sowohl preisgekrönte Restaurants als auch Feinschmecker Events, die einmalige Geschmackserlebnisse versprechen. Im McLaren Vale wartet der The Cube — ein Komplex mit Museum, Videoinstallation, Weinverkostung sowie Restaurant auf Ihren Besuch. Auf gutes Essen müssen Sie auch in den Metropolen nicht verzichten: Das Quay und Firedoor zählen in Sydney zu den Top Adressen ebenso das berühmte Attica in Melbourne. "
+  description: "In den größeren Städten Australiens, aber auch entlang der umliegenden Regionen und Weinanbaugebiete finden Sie sowohl preisgekrönte Restaurants als auch Feinschmecker Events, die einmalige Geschmackserlebnisse versprechen. Im McLaren Vale wartet The Cube — ein Komplex auf dem Weingut D’Arenberg mit Museum, Videoinstallation, Weinverkostung sowie Restaurant auf Ihren Besuch. Auf gutes Essen müssen Sie auch in den Metropolen nicht verzichten: Das Quay und Firedoor zählen in Sydney zu den Top Adressen ebenso das berühmte Attica in Melbourne. "
 
 
 ################################################################################
@@ -43,7 +43,7 @@
 
 - id: "five"
   title: Australiens edle Tropfen
-  location: Barossa Valley, Südaustralien
+  location: Südaustralien, Westaustralien
   colour: black
   credit: "© Tourism Australia"
   description: "Wussten Sie, dass Australien einen ausgezeichneten Ruf als preisgekrönte Weindestination besitzt? Auf Genuss-Touren lernen Sie mehr über die Spitzenweine der 60 Anbaugebiete kennen. Zu den besten und ältesten Weinregionen Süd-Australiens zählt das Barossa Valley. Seit 160 Jahren produzieren die Winzer Spitzenweine, die ihresgleichen suchen. Preisgekrönt ist auch der Sauvignon Blanc aus der westaustralischen Weinregion Margaret River. Bei einer Stippvisite probieren Sie hier die Premium-Weine gleich vom Fass. Nahe der Metropole lädt das Hunter Valley zu Festivals mit Wein und Käse. Entlang des Wine-Trails, im beschaulichen Swan Valley, flanieren Sie zwischen Weingut-Cafés, Brauereien und Brennereien."
