@@ -17,9 +17,17 @@
 
   console.log(map);
 
+  map.fitBounds([[
+          110.7690568,
+          -9.2379
+      ], [
+          155.299813,
+          -45.1714184
+      ]]);
 
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'bottom-right');
 
-  map.addControl(new mapboxgl.NavigationControl());
 
   map.on('load', function() {
     // Insert the layer beneath any symbol layer.
@@ -55,7 +63,7 @@
   properties: {
     id: '1',
     cat: 'genuss',
-    title: 'Magische Stunden am Ayers Rock',
+    title: 'Magische Stunden am Uluru',
     img: 'one',
     link: '#',
     description: 'Magische Momente am Uluru: Event-Dinner unterm Sternenhimmel.'
@@ -270,7 +278,7 @@
       properties: {
         id: '5',
         cat: 'abenteuer',
-        title: '5 Rotes Zentrum',
+        title: 'Rotes Zentrum',
         img: 'one',
         link: '#',
         description: 'Das Red Centre erkunden Sie mit dem Auto oder auf einem Helikopterflug.'
@@ -362,7 +370,7 @@
     new mapboxgl.Marker(el)
       .setLngLat(marker.geometry.coordinates)
       .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-      .setHTML('<a class="text--black" href="{{site.baseurl}}/'+ marker.properties.cat+'/#'+marker.properties.img +'"><div class="bv-popup-img bg-img--4-3" style="background-image: url({{site.img}}/content/'+marker.properties.cat+'/'+marker.properties.img+'.jpg); "></div><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div></div></a>'))
+      .setHTML('<a class="text--black" href="{{site.baseurl}}/'+ marker.properties.cat+'/#'+marker.properties.img +'"><div class="bv-popup-img bg-img--4-3" style="background-image: url({{site.img}}/content/'+marker.properties.cat+'/'+marker.properties.img+'.jpg); "></div><div class="boxpad--md vpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="space--xs"></div><div class="text text--md text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div></div></a>'))
 
       /**/
       .addTo(map);

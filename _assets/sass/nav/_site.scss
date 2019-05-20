@@ -2,7 +2,7 @@
 
 $site-nav-height:    60px;
 $site-nav-height-sm: 50px;
-$nav-width-bp:       640px;
+$nav-width-bp:       900px;
 $nav-color:          $bv-turquoise;
 
 
@@ -68,8 +68,8 @@ $nav-color:          $bv-turquoise;
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
-      min-width: $site-nav-height-sm;
-      @include bp($md){ min-width: $site-nav-height; }
+      min-width: $site-nav-height-sm/3;
+      //@include bp($md){ min-width: $site-nav-height; }
       @include bp($nav-width-bp){ display: none; }
     }
   }

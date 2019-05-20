@@ -11,8 +11,7 @@ $(window).on('scroll', function () {
     offset = 600,
     range = 100,
     calc = 1 - (pixs )/10;
-      //console.log(pixs);
-/**/
+
 	if(isFirefox === false){
 
 		$(".bv-banner-out").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)","opacity": calc });
@@ -21,12 +20,46 @@ $(window).on('scroll', function () {
 });
 
 
+// Get the modal
+var modal = document.getElementById('bv-myModal');
 
+// Get the button that opens the modal
+var btn = document.getElementById("bv-myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("bv-close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+    $('body').addClass('bv-disable-scroll');
+		$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+      $('body').removeClass('bv-disable-scroll');
+			//$('#video').stopVideo();
+			$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+        $('body').removeClass('bv-disable-scroll');
+				$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+  }
+}
 /*
-document.getElementById('bv-pin1').addEventListener('mouseover', function(){
-    console.log('mouseover wird ausgeführt');
-});
-*/
+$('.close').on('click', function() {
+	//$('#video').stopVideo();
+$('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+});*/
+
+
+// Make legend acceesible
 var i;
 var j;
 var index_highest = 0;
@@ -39,32 +72,7 @@ var coll3 = document.getElementsByClassName("marker--abenteuer");
 var coll4 = document.getElementsByClassName("marker--kultur");
 
 
-//console.log(coll.length);
 
-/*
-
-for (j = 0; j < 4; j++) {
-
-
-	var elem+pins[j] = marker+j;
-
-console.log(elem+pins[j]]);
-
-
-	//pins[j] = document.getElementById('bv-pin'+j);
-	//coll[j] = document.getElementById('bv-pin'+j);
-
-	pins[j].addEventListener("click", function(){
-
-		console.log('bv-pin'+j);
-
-		for (var i = 1; i < coll[j].length; i++) {
-				//pins[j].addEventListener("click", function(){});
-				console.log(i);
-			}
-	});
-}*/
-/**/
 document.getElementById('bv-pin1').addEventListener("click", function(){
 
 	//console.log(zindex);
@@ -138,45 +146,4 @@ for (i = 1; i <= coll4.length; i++) {
 			this.classList.remove('bv-toggle-active');
     }
   }
-});
-
-
-
-//var index_highest = 0;
-// more effective to have a class for the div you want to search and
-// pass that to your selector
-$("#genuss1,#genuss2,#genuss3,#genuss4").each(function() {
-		// always use a radix when using parseInt
-		var index_current = parseInt($(this).css("zIndex"), 10);
-		if(index_current > index_highest) {
-				index_highest = index_current;
-		}
-		console.log(index_current);
-});
-
-$("#natur1,#natur2,#natur3,#natur4").each(function() {
-		// always use a radix when using parseInt
-		var index_current = parseInt($(this).css("zIndex"), 10);
-		if(index_current > index_highest) {
-				index_highest = index_current;
-		}
-		console.log(index_current);
-});
-
-$("#abenteuer1,#abenteuer2,#abenteuer3").each(function() {
-		// always use a radix when using parseInt
-		var index_current = parseInt($(this).css("zIndex"), 10);
-		if(index_current > index_highest) {
-				index_highest = index_current;
-		}
-		console.log(index_current);
-});
-
-$("#kultur1,#kultur2,#kultur3").each(function() {
-		// always use a radix when using parseInt
-		var index_current = parseInt($(this).css("zIndex"), 10);
-		if(index_current > index_highest) {
-				index_highest = index_current;
-		}
-		console.log(index_current);
 });

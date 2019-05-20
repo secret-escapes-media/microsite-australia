@@ -10,7 +10,7 @@
    bottom:0px;
    background-color: rgba($black, .2);
    padding: 5px 10px;
-   //text-shadow: (0 0 2px $black);
+
  }
 
 
@@ -50,27 +50,57 @@ padding-right: $s4;
 
 
 /* ==========================================================================
+   mobile
+ ========================================================================== */
+
+
+.bv-mob-show{
+    display: block;
+
+  @include bp($xl) {
+      display: none;
+
+  }
+}
+
+.bv-mob-hide{
+    display: none;
+
+    &--lg { display: none;}
+
+    &--md { display: none;}
+
+  @include bp($md) {  &--md {display: block;}  }
+
+  @include bp($lg) {  &--lg {display: block;}  }
+
+  @include bp($xl) {  display: block;  }
+
+}
+
+
+/* ==========================================================================
    Pin
    ========================================================================== */
 
-.bv-pin{
-
-  content: "";
-  display: block;
-  margin-left: 1.7em;
-  //font-weight: 600;
-  transform: scale(1.1);
-
-}
-.bv-pin--white::before {
-  margin-right: .3em;
-  content: url( "../img/icons/map-pin-white.svg" );
+.bv-ul--white{
+  list-style-image: url('../img/icons/map-pin-white.svg');
 }
 
-.bv-pin--black::before {
-  margin-right: .3em;
-  content: url( "../img/icons/map-pin-black.svg" );
+.bv-ul--black{
+  list-style-image: url('../img/icons/map-pin-black.svg');
 }
+
+.bv-pin li {
+    content: "";
+    display:inline-block;
+    height:1em;
+    width:1em;
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-left: 2em;
+ }
+
 
 .bv-show{
   display: block;
@@ -104,3 +134,131 @@ padding-right: $s4;
 
   }
 }
+
+
+
+      /* ==========================================================================
+       hero-youtube
+      ========================================================================== */
+
+      /* The Modal (background) */
+      .bv-modal {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba($black,0.9);
+      }
+
+      /* Modal Content */
+      .bv-modal-content-details {
+        position: absolute;
+        height: 100%;
+        max-height: 620px;
+        width: 100%;
+        margin: auto;
+        padding:  55px;
+        top: 0; left: 0; bottom: 0; right: 0;
+        overflow: hidden;
+
+      }
+
+
+      .bv-mySlides {
+        margin: auto;
+        max-width:1000px;
+        width:100%;
+        background-color: #fff;
+
+      }
+
+
+      .bv-iframe-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%; // 16:9 ratio
+        background-color:#000;
+
+      }
+
+      .bv-iframe-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0; top: 0;
+      }
+
+      /* The Close Button */
+      .bv-close {
+        position: absolute;
+        background-size:16px;
+        top: 0px;
+        right: 0px;
+        background-image: url('../img/icons/close-black.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 55px;
+        height: 55px;
+        background-color: $white;
+        z-index:999;
+        cursor: pointer;
+
+      }
+
+
+      @media only screen and (max-width: 650px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 38vh;
+        height: 100%;
+        }
+      }
+
+
+      @media only screen and (min-width: 650px) and (max-width: 800px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 450px;
+        height: 100%;
+        }
+      }
+
+      .bv-disable-scroll {
+        overflow: hidden;
+        & >:not(.bv-modal) {
+        //  -webkit-filter: blur(10px);
+        //  -moz-filter: blur(10px);
+        //  -o-filter: blur(10px);
+        //  -ms-filter: blur(10px);
+        //  filter: blur(10px);
+        }
+      }
+
+
+
+
+  /* ==========================================================================
+    Flight tag - Offers
+    ========================================================================== */
+
+
+
+    .flight-tag {
+      position: absolute;
+      top: $s-2;
+      left: $s-2;
+      display: block;
+      width: 50%;
+      @include bp($sm){
+        top: $s0;
+        left: $s0;
+        width: 146px;
+      }
+    }

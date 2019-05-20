@@ -9,7 +9,7 @@
   text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.33;
-  border-radius: 3px;
+  border-radius: 0;
   cursor: pointer;
   @include transition;
   &--sm { padding: $s1 $s4; font-size: $s-2; }
@@ -27,10 +27,22 @@
       left: 0;
       right: 0;
       bottom: 0;
-      border-width: 1px;
+      border-width: 2px;
       border-style: solid;
       border-radius: inherit;
       @include transition;
+    }
+  }
+  &--bv-outline {
+
+    font-size: $s0/1.2;
+    color: $bv-gold;
+    border: 2px solid $bv-gold;
+    border-radius: 0px;
+
+    &:hover {
+      color: $white;
+      background-color: $bv-gold;
     }
   }
   &--outline-orange {
