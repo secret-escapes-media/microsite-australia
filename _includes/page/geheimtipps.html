@@ -1,0 +1,19 @@
+{% for section in site.data[page.id] %}
+
+<div class="container">
+  <div class="bob {% cycle ' ', 'bob--swap' %}">
+    <div class="bob__img">
+      <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.category}}-{{section.show}}.jpg');"></div>
+    </div>
+    <div class="bob__text">
+      <div class="title title--md text--normal text--gold text--upper">{{section.title}}</div>
+      {% if section.location %}
+        <ul>
+        <li class="text text--xl bv-pin bv-ul--black text--bold text--left"> {{section.location}}</li>
+        </ul>
+        {% endif %}
+      <p>{{section.description}}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}

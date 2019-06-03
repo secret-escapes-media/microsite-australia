@@ -4,7 +4,10 @@
   &--white { background-color: $white; }
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
+  &--black { background-color: $black; }
+  &--yellow  { background-color: $bv-yellow; }
   &--blue  { background-color: $bv-blue; }
+  &--lightblue  { background-color: $bv-lightblue; }
   &--gold-bg  { background-color: $bv-gold-bg; }
   &--img   { @include background-attributes; }
   &__fixed {

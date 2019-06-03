@@ -13,6 +13,8 @@ layout: default
 
 
 {% for section in site.data[page.id] %}
+
+
     <div id="{{section.id}}" class="harvey {% cycle 'harvey--swap ', ' bg--gold-bg text--white' %}">
       <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"><div class="text text--sm text--white text--normal bv-copyright" style=" {% cycle 'left:0px;', 'right:0px;' %}">{{section.credit}}</div></div>
       <div class="harvey__text boxpad--lg text text--xl text--justify">
@@ -28,4 +30,35 @@ layout: default
         <p>{{section.description}}</p>
       </div>
     </div>
+ {% endfor %}
+
+
+
+
+ {% for geheimtipps in site.data.geheimtipps %}
+      {% if geheimtipps.category == page.id and geheimtipps.show == true %}
+      <div class="vpad--xxl text--white bv-parallax" style="background-image:url('{{site.img}}/content/{{geheimtipps.id}}/{{geheimtipps.category}}.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center;">
+
+          <h2 class="title title--xl text--white text--upper text--center text--normal">Unser Geheimtipp</h2>
+          <div class="space--xl"></div>
+         <div class="container">
+           <div class="bob">
+             <div class="bob__img text--md">
+               <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{geheimtipps.id}}/{{geheimtipps.category}}-{{geheimtipps.show}}.jpg'); border: solid 4px #fff;"><div class="text text--sm text--white text--normal bv-copyright" style=" left:0px;">{{geheimtipps.credit}}</div></div>
+             </div>
+             <div class="bob__text text">
+               <div class="title title--sm text--bold text--upper">{{geheimtipps.title}}</div>
+               {% if geheimtipps.location %}
+                 <ul>
+                 <li class="text text--xl bv-pin bv-ul--white text--bold text--left"> {{geheimtipps.location}}</li>
+                 </ul>
+                 {% endif %}
+               <p>{{geheimtipps.description}}</p>
+               <div class="space--md"></div>
+               <a href="{{site.baseurl}}/geheimtipps" class=" btn btn--bv-outline-white" > Mehr Geheimtipps </a>
+             </div>
+           </div>
+         </div>
+  </div>
+       {% endif %}
  {% endfor %}

@@ -15,11 +15,11 @@
       {{ content }}
     </div>
 
-<!--
-    {% unless page.layout == 'content'  %}
+
+    {% if page.layout == 'overview'  %}
       {% include page/promo-comp.html %}
-    {% endunless %}
-  -->
+    {% endif %}
+
 
     {% include page/footer.html %}
 

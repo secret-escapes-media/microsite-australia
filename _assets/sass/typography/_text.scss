@@ -2,6 +2,7 @@
 
 .text {
   //hyphens: auto;
+  font-family: $font-title-01;
 
   // sizes
   &--xxl { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }

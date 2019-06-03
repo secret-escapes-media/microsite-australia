@@ -1,0 +1,81 @@
+
+- id: "geheimtipps"
+  title: Handgefertigte Köstlichkeiten im&nbsp;Meletos
+  category: genuss
+  show: true
+  credit: "https://www.meletos.com/"
+  location: Meletos Restaurant, Yarra Valley,&nbsp;Victoria
+  description: "Inmitten des Yarra Valley nordöstlich von Melbourne liegt das Meletos – ein Areal aus alten Gebäuden, das nun ein Café, Meetingraum und Boutique-Hotel beheimatet. Ein wirklich außergewöhnlicher Ort zwischen traumhaften Weinbergen und Gärten mit Apfelbäumen und Gemüsebeeten, den wir Ihnen wärmstens empfehlen. Bei einem Besuch des Meletos Restaurant im Sommer können Sie sich auf ein kulinarisches Erlebnis mit den erntefrischen Produkten aus der Region freuen. Probieren Sie gleich die leckeren Craftbiere und Weine aus dem Umland dazu. "
+
+
+- id: "geheimtipps"
+  title: Nachhaltig urlauben in Eco-Retreats
+  category: genuss
+  show: false
+  credit: "Luxury Lodges of Australia"
+  location: Emirates One&Only Wolgan Valley, New&nbsp;South&nbsp;Wales
+  description: "Besonders nachhaltig sind die trendigen Eco Resorts, die CO2-neutral mit umweltschonenden Gebäuden und Angeboten ihren Gästen aktive Naturerlebnisse bieten. Seit zehn Jahren präsentiert das One&Only Wolgan Valley als erstes Retreat weltweit seinen Gästen luxuriöse Villen und die Möglichkeit, sich aktiv im Schutzprogramm für die Erhaltung der Wälder der Blue Mountain Region zu beteiligen: Setzen Sie Ihr persönliches grünes Denkmal in Australien und pflanzen Sie einen Baum inmitten der Blue Mountains auf einer geführten Tour durch das Naturparadies. "
+
+
+################################################################################
+
+- id: "geheimtipps"
+  title: Feierabendparade der&nbsp;Pinguine
+  category: natur
+  show: true
+  credit: "Tourism Australia"
+  location: Philipp Island, Victoria
+  description: "Verbringen Sie mit einem Aborigine-Ranger einen exklusiven Nachmittag auf Phillip Island. Lauschen Sie den faszinierenden Geschichten der Aborigine über die kleine und vielfältige Insel, während Sie das Naturparadies durchwandern. Zum Sonnenuntergang wartet ein ganz besonderes Spektakel auf Sie: Unweit der Dünen sitzend, erleben Sie aus erster Reihe, die scheue Kolonne der Pinguine, die sich watschelnd zu ihren Höhlen und Nestern in die Dünenlandschaft begeben. Zum Ausklang des Insel-Abenteuers genießen Sie ein köstliches Abendessen mit frischen Zutaten aus der&nbsp;Region."
+
+
+- id: "geheimtipps"
+  title: Der Uluru im schönsten&nbsp;Licht
+  category: natur
+  show: false
+  credit: "Mossman Gorge, QLD"
+  location: Uluru, Northern Territory
+  description: "Sehr zu empfehlen ist auch eine 2-tägige Tour durch den Kata-Tjuta-Nationalpark entlang des Uluru. Berauschen Sie sich am mystischen Farbenspiel des riesigen Sandsteinmonolithen zum Sonnenuntergang. Auf der Erkundungstour erfahren Sie Wissenswertes über die Geologie und Pflanzenwelt des Canyons, der zu den ältesten Naturwundern der Welt zählt. In den Höhlen der Felsenformationen begegnen Sie auch den Grafiken und Symbolen der Aborigines, die vor Jahrtausenden bereits zur Kommunikation die Wände&nbsp;gestalteten. "
+
+
+################################################################################
+
+- id: "geheimtipps"
+  title: Mit Seelöwen am&nbsp;Strand
+  category: abenteuer
+  show: true
+  credit: "South Australian Tourism Commission"
+  location: Kangaroo Island, Südaustralien
+  description: "Gehen Sie auf Tuchfühlung mit den vom Aussterben bedrohten australischen Seelöwen in der Seal Bay. Folgen Sie der Promenade entlang der Dünen am Strand und erleben Sie die imposanten Meeresbewohner in ihrem natürlichen Lebensraum ohne Gehege oder Käfig. Ein Experte führt Sie durch das Herz der Kolonie, während Sie Tiere beobachten und Einblicke in deren Jagd- oder Sozialverhalten erhalten. Mit der Tour unterstützen Sie den Naturschutz vor Ort, denn durch Umweltverschmutzung und Überfischung der Meere wird der Lebensraum der Seelöwen zunehmend&nbsp;zerstört. "
+
+
+- id: "geheimtipps"
+  title: Wunderschönes Inselresort
+  category: abenteuer
+  show: false
+  credit: "Luxury Lodges of Australia"
+  location: Qualia Resort, Hamilton Island, Queensland
+  description: "Der Großteil der hügeligen Insel Hamilton Island gehört zum Whitsunday-Islands-Nationalpark und ist eines der beliebtesten Touristenziele Australiens. Saisonal können Sie hier Wale beobachten und Bootsausflüge nach Whitehaven Beach oder Tauchtouren unternehmen. Die Insel verfügt über ein großes Weltklasse-Luxusresort, das inmitten des tropischen Waldes in den Whitsundays liegt. Ein riesiger 40 m langer Pool, sowie kleine Privatpavillons mit Terrassen, die einen atemberaubenden Blick auf das Meer bieten, und großartige Wellness-Angebote sind die Highlights dieser glamourösen&nbsp;Oase. "
+
+
+################################################################################
+
+- id: "geheimtipps"
+  title: Das Rad des Schicksals
+  category: kultur
+  show: true
+  credit: "Port Arthur Historic Site Management Authority&nbsp;(PAHSMA)"
+  location: Port Arthur, Tasmanien
+  description: "Erkunden Sie das Leben hinter Gittern, in Australiens berüchtigtster Gefängnissiedlung aus dem 19. Jahrhundert. Auf einer mehrstündigen privaten Tour erhalten Sie Einblicke in den Tagesablauf eines Insassen und ergründen die Zellen, Gemeinschaftsräume und Grünanlagen auf dem Gelände dieser zum UNESCO-Weltkulturerbe gehörenden Stätte. Zum Abendessen verwöhnt Sie der Chefkoch der Port Arthur Historic Site mit einem 3-Gänge-Menü und Getränken aus regionalen tasmanischen Produkten im Speisesaal dieser&nbsp;Festung. "
+
+
+
+- id: "geheimtipps"
+  title: Mit dem legendären Ghan durchs&nbsp;Outback
+  category: kultur
+  show: false
+  credit: "Great Southern Rail"
+  location: Südaustralien & Northern Territory
+  description: "Wie wäre es mit einer traumhaften Zugreise in einem historischen Dampfzug durch das Rote Zentrum? Auf dieses luxuriöse Reiseerlebnis im Ghan – dem Afghan Express – auf der längsten Zugstrecke der Welt von Adelaide nach Alice Springs, sollten Sie nicht verzichten. Sowohl im Einzel- und Doppelabteil als auch im Quenn Adelaide Restaurant, dem exklusivsten Bordrestaurant der Welt, genießen Sie Komfort und Luxus pur und blicken durchgehend auf die beeindruckende Landschaft des australischen Outbacks. Erkunden Sie auf Zwischenstopps die Städte und Sehenswürdigkeiten oder buchen Helikopterflüge dazu. Als Passagier im Platinum- oder Goldabteil wartet außerdem ein Lagerfeuer unterm Sternenhimmel und ein Frühstück im Outback auf&nbsp;Sie. "
+
+
+################################################################################

@@ -1,16 +1,27 @@
-- title: Rundreise zu den Highlights von Down Under
+- title: Exotische Auszeit am Long Island Reef
   id: "1"
+  location: Elysian Retreat, Long Island Reef, Queensland, Australien
+  description: Luxuriöse Strandvillen umgeben von tropischer Insel-Idylle – inkl. All-inclusive & Extras
+  price: 326
+  price-description: basierend auf 2 Personen für 9 Nächte
+  saved: 30
+  flight-tag: #
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95410/fed9b2ca_b01f_407c_a02e_1fe0aae022e3.jpg
+  link: http://bit.ly/2WxJk8z
+
+- title: Rundreise zu den Highlights von Down Under
+  id: "2"
   location: Melbourne, Sydney, Ayers Rock, Cairns – Australien
   description: Von Sydney zum Ayers Rock & ans Korallenriff – inkl. Touren & optionalem Stopp in Melbourne
-  price: 4849
+  price: 4.849
   price-description: basierend auf 2 Personen für 9 Nächte
   saved:
   flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94354/3f43489e_3938_4442_be8e_308749cb8ab8.jpg
-  link: http://bit.ly/2w7AvTR
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/94354/dc52d1e7_fed8_434d_9c53_67334e342b0f.jpg
+  link: http://bit.ly/2HJX33T
 
 - title: Charmantes Design-Hotel in Sydney
-  id: "2"
+  id: "3"
   location: The Grace Hotel, Sydney, Australien
   description: Eco-Exzellenz Down Under in Traumlage am Hafen – inkl. Frühstück & spätem Check-out
   price: 62
@@ -21,7 +32,7 @@
   link: http://bit.ly/2M9XUPF
 
 - title: "Einmal im Leben: Luxus-Rundreise in Australien"
-  id: "3"
+  id: "4"
   location: Sydney, Ayers Rock, Daintree-Regenwald, Hamilton Island, Melbourne
   description:  Inkl. Business-Class-Flügen auf der Langstrecke, Privattransfers & vielen Touren
   price: 16.999
@@ -32,7 +43,7 @@
   link: http://bit.ly/2VwsTVi
 
 - title: "Australien: Badeurlaub mit Skyline-Panorama"
-  id: "4"
+  id: "5"
   location: The Ruby Collection, Surfer’s Paradise, Gold Coast, Queensland, Australien
   description: Australiens schönster Strand – inkl. Frühstück & täglichem Cocktail
   price: 50
