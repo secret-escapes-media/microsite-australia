@@ -9,19 +9,8 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/95410/fed9b2ca_b01f_407c_a02e_1fe0aae022e3.jpg
   link: http://bit.ly/2WxJk8z
 
-- title: Rundreise zu den Highlights von Down Under
-  id: "2"
-  location: Melbourne, Sydney, Ayers Rock, Cairns – Australien
-  description: Von Sydney zum Ayers Rock & ans Korallenriff – inkl. Touren & optionalem Stopp in Melbourne
-  price: 4.849
-  price-description: basierend auf 2 Personen für 9 Nächte
-  saved:
-  flight-tag: #
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/94354/dc52d1e7_fed8_434d_9c53_67334e342b0f.jpg
-  link: http://bit.ly/2HJX33T
-
 - title: Charmantes Design-Hotel in Sydney
-  id: "3"
+  id: "2"
   location: The Grace Hotel, Sydney, Australien
   description: Eco-Exzellenz Down Under in Traumlage am Hafen – inkl. Frühstück & spätem Check-out
   price: 62
@@ -32,7 +21,7 @@
   link: http://bit.ly/2M9XUPF
 
 - title: "Einmal im Leben: Luxus-Rundreise in Australien"
-  id: "4"
+  id: "3"
   location: Sydney, Ayers Rock, Daintree-Regenwald, Hamilton Island, Melbourne
   description:  Inkl. Business-Class-Flügen auf der Langstrecke, Privattransfers & vielen Touren
   price: 16.999
@@ -42,13 +31,35 @@
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/30191/62d059c2_51f0_4b87_8b46_a7f1b47ea340.jpg
   link: http://bit.ly/2VwsTVi
 
-- title: "Australien: Badeurlaub mit Skyline-Panorama"
-  id: "5"
-  location: The Ruby Collection, Surfer’s Paradise, Gold Coast, Queensland, Australien
-  description: Australiens schönster Strand – inkl. Frühstück & täglichem Cocktail
-  price: 50
+- title: "Sorgenfrei am Great Barrier Reef"
+  id: "4"
+  location: Lizard Island, Great Barrier Reef, Queensland, Australien
+  description: Am Ende der Welt, inkl. All-inclusive, Resort-Guthaben, unbegrenzt Softdrinks & Extras
+  price: 432
   price-description: pro Person - basierend auf 2 Personen
-  saved: 27
-  flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94622/e9279241_85eb_4115_9985_f7d713a88842.jpg
-  link: http://bit.ly/2JQcM2z
+  saved: 25
+  flight-tag: false
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95714/677bb931_1aa5_43a2_9864_0ca6daad2b82.jpg
+  link: http://bit.ly/2ZjNSNy
+
+- title: "Australiens Süden mit Luxus-Flair"
+  id: "5"
+  location: Melbourne, Cape Otway, Hobart, Cradle Mountain, Adelaide - Australien
+  description: Zwischen Outback, Küste und City – inkl. Flügen, Mietwagen & Frühstück oder Halbpension
+  price: 4.259
+  price-description: pro Person - basierend auf 2 Personen für 12 Nächte
+  saved:
+  flight-tag: true
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95738/9a6b04be_8048_4f6b_bd34_7dc1555bdf1a.jpg?auto=format,compress
+  link: http://bit.ly/2XTo8Hc
+
+- title: "Die schönsten Strände Australiens entdecken"
+  id: "6"
+  location: Sydney – Byron Bay – Agnes Water – Mission Bay – Cairns, Australien
+  description: Komfortable Mietwagen-Rundreise an der australischen Ostküste – inkl. Flügen & Mietwagen
+  price: 3.249
+  price-description: pro Person - basierend auf 2 Personen für 18 Nächte
+  saved: -20
+  flight-tag: true
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/96502/29fa6b07_1f95_477f_9c68_86e981ab5ffb.jpg?auto=format,compress
+  link: http://bit.ly/2RojHlB
